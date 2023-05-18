@@ -1,0 +1,162 @@
+
+warn: 2023-05-17T15:48:13.604Z,id: 12, msg: Attempted square root of non-positive number
+warn: 2023-05-17T15:48:14.116Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-17T15:48:16.476Z,id: 12, msg: Record not found
+warn: 2023-05-17T16:00:43.108Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-17T16:00:43.547Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-17T16:00:44.140Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-17T16:00:44.636Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-17T16:00:47.625Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-17T16:00:48.136Z,id: 12, msg: Attempted square root of non-positive number
+warn: 2023-05-17T16:00:48.650Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-17T16:00:50.979Z,id: 12, msg: Record not found
+warn: 2023-05-17T23:09:33.488Z,id: alan_jurado_Canseco@hotmail.com, msg: User not found
+warn: 2023-05-18T02:45:16.923Z,id: alan_jurado_Canseco@hotmail.com, msg: User not found
+warn: 2023-05-18T03:03:48.888Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T03:15:23.140Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T03:15:28.194Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T03:18:49.755Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T03:19:10.610Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T03:21:57.761Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T03:22:16.252Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T03:22:22.037Z,id: 12, msg: Invalid request: Invalid operation type - square_root
+warn: 2023-05-18T03:22:23.068Z,id: 12, msg: Invalid request: Invalid operation type - square_root
+warn: 2023-05-18T03:22:40.990Z,id: 12, msg: Invalid request: Invalid operation type - square_root
+warn: 2023-05-18T03:23:10.972Z,id: 12, msg: Invalid request: Invalid operation type - square_root
+warn: 2023-05-18T03:25:16.757Z,id: 12, msg: Attempted square root of non-positive number
+error: 2023-05-18T14:41:25.631Z,id: 12, error: error: invalid input syntax for type integer: "*"
+error: 2023-05-18T14:49:44.764Z,id: 12, error: error: invalid input syntax for type integer: "*"
+error: 2023-05-18T14:59:38.695Z,id: 12, error: error: invalid input syntax for type integer: "*"
+error: 2023-05-18T15:02:10.230Z,id: 12, error: TypeError: Cannot read property 'cost' of undefined
+warn: 2023-05-18T15:02:28.884Z,id: 12, msg: Attempted square root of non-positive number
+error: 2023-05-18T15:02:32.251Z,id: 12, error: TypeError: Cannot read property 'cost' of undefined
+error: 2023-05-18T15:09:42.156Z,id: 12, error: ReferenceError: query is not defined
+error: 2023-05-18T15:12:18.550Z,id: 12, error: ReferenceError: query is not defined
+warn: 2023-05-18T15:28:43.136Z,id: 12, msg: Invalid request: Invalid operation type - square-root
+warn: 2023-05-18T15:29:35.644Z,id: 12, msg: Invalid request: Invalid operation type - square-root
+warn: 2023-05-18T15:30:54.297Z,id: 12, msg: Attempted square root of non-positive number
+warn: 2023-05-18T15:31:30.279Z,id: 12, msg: Attempted square root of non-positive number
+warn: 2023-05-18T16:16:19.139Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T16:16:19.590Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T16:16:20.232Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T16:16:20.721Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T16:19:40.644Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T16:19:41.066Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T16:19:41.676Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T16:19:42.155Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T16:19:50.880Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T16:19:51.395Z,id: 12, msg: Invalid request: Invalid operation type - square-root
+warn: 2023-05-18T16:19:51.945Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T16:19:54.301Z,id: 12, msg: Record not found
+error: 2023-05-18T16:19:54.897Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T16:21:53.017Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T16:21:53.461Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T16:21:54.052Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T16:21:54.576Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T16:22:03.222Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T16:22:03.734Z,id: 12, msg: Invalid request: Invalid operation type - square-root
+warn: 2023-05-18T16:22:04.242Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T16:22:06.505Z,id: 12, msg: Record not found
+error: 2023-05-18T16:22:07.083Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T16:22:20.165Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T16:22:20.599Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T16:22:21.260Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T16:22:21.773Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T16:22:30.853Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T16:22:31.378Z,id: 12, msg: Invalid request: Invalid operation type - square-root
+warn: 2023-05-18T16:22:31.916Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T16:22:34.218Z,id: 12, msg: Record not found
+error: 2023-05-18T16:22:34.833Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+error: 2023-05-18T19:15:27.452Z,id: 12, error: ReferenceError: fetch is not defined
+warn: 2023-05-18T19:16:57.272Z,id: 12, msg: Insufficient balance for operation requested
+warn: 2023-05-18T20:39:18.176Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T20:39:18.579Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T20:39:19.178Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T20:39:19.664Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T20:39:24.582Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T20:39:25.078Z,id: 12, msg: Invalid request: Invalid operation type - square-root
+warn: 2023-05-18T20:39:25.578Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:39:27.860Z,id: 12, msg: Record not found
+error: 2023-05-18T20:39:28.429Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T20:42:42.569Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T20:42:42.998Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T20:42:43.579Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T20:42:44.083Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T20:42:48.915Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T20:42:49.418Z,id: 12, msg: Invalid request: Invalid operation type - square-root
+warn: 2023-05-18T20:42:49.895Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:42:52.200Z,id: 12, msg: Record not found
+error: 2023-05-18T20:42:52.785Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T20:45:20.288Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T20:45:20.715Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T20:45:21.303Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T20:45:21.804Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T20:45:23.251Z,error: JsonWebTokenError: jwt malformed
+warn: 2023-05-18T20:45:24.723Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T20:45:25.218Z,id: 12, msg: Invalid request: Invalid operation type - square-root
+warn: 2023-05-18T20:45:25.738Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:45:28.011Z,id: 12, msg: Record not found
+error: 2023-05-18T20:45:28.588Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T20:53:48.496Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T20:53:48.916Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T20:53:49.487Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T20:53:49.963Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T20:53:51.366Z,error: JsonWebTokenError: jwt malformed
+warn: 2023-05-18T20:53:52.822Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T20:53:53.312Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:53:53.797Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:53:54.504Z,id: 12, msg: Insufficient balance for operation requested
+warn: 2023-05-18T20:53:56.043Z,id: 12, msg: Record not found
+error: 2023-05-18T20:53:56.614Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T20:54:28.515Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T20:54:28.939Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T20:54:29.518Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T20:54:30.005Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T20:54:31.424Z,error: JsonWebTokenError: jwt malformed
+warn: 2023-05-18T20:54:32.893Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T20:54:33.384Z,id: 12, msg: Invalid request: Invalid operation type - square-root
+warn: 2023-05-18T20:54:33.914Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:54:34.650Z,id: 12, msg: Insufficient balance for operation requested
+warn: 2023-05-18T20:54:36.249Z,id: 12, msg: Record not found
+error: 2023-05-18T20:54:36.807Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T20:55:06.731Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T20:55:07.143Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T20:55:07.723Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T20:55:08.223Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T20:55:09.639Z,error: JsonWebTokenError: jwt malformed
+warn: 2023-05-18T20:55:11.104Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T20:55:11.592Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:55:12.074Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:55:12.828Z,id: 12, msg: Insufficient balance for operation requested
+warn: 2023-05-18T20:55:14.352Z,id: 12, msg: Record not found
+error: 2023-05-18T20:55:14.905Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T20:56:10.748Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T20:56:11.180Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T20:56:11.792Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T20:56:12.321Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T20:56:13.769Z,error: JsonWebTokenError: jwt malformed
+warn: 2023-05-18T20:56:15.399Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T20:56:15.893Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:56:16.384Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:56:17.145Z,id: 12, msg: Insufficient balance for operation requested
+warn: 2023-05-18T20:56:18.805Z,id: 12, msg: Record not found
+error: 2023-05-18T20:56:19.393Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T20:59:54.241Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T20:59:54.665Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T20:59:55.282Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T20:59:55.765Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T20:59:57.156Z,error: JsonWebTokenError: jwt malformed
+warn: 2023-05-18T20:59:58.603Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T20:59:59.085Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T20:59:59.608Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T21:00:00.400Z,id: 12, msg: Insufficient balance for operation requested
+warn: 2023-05-18T21:00:01.990Z,id: 12, msg: Record not found
+error: 2023-05-18T21:00:02.550Z,id: 12, error: error: invalid input syntax for type integer: "undefined"
+warn: 2023-05-18T21:06:34.518Z,id: invalid-email, msg: Invalid email address
+warn: 2023-05-18T21:06:34.955Z,id: test@example.com, msg: Empty password attempted
+warn: 2023-05-18T21:06:35.563Z,id: test@example.com, msg: Invalid password
+warn: 2023-05-18T21:06:36.082Z,id: nonexistent@example.com, msg: User not found
+warn: 2023-05-18T21:06:37.557Z,error: JsonWebTokenError: jwt malformed
+warn: 2023-05-18T21:06:39.284Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-18T21:06:39.813Z,id: 12, msg: Attempted operation with non-numeric values
+warn: 2023-05-18T21:06:40.942Z,id: 12, msg: Record not found
