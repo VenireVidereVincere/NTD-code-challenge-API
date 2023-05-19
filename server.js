@@ -12,7 +12,7 @@ const app = express();
 
 // Middleware
 
-const allowlist = ['http://localhost:3000','http://localhost:3001'];
+const allowlist = ['http://localhost:3000','http://localhost:3001', 'https://loanpro-code-challenge-api.herokuapp.com'];
 const corsOptionsDelegate = function (req, callback) {
   let corsOptions;
   if (allowlist.indexOf(req.header('Origin')) !== -1) {

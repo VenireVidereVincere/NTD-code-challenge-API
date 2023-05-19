@@ -160,3 +160,9 @@ warn: 2023-05-18T21:06:37.557Z,error: JsonWebTokenError: jwt malformed
 warn: 2023-05-18T21:06:39.284Z,id: 12, msg: Attempted division by 0
 warn: 2023-05-18T21:06:39.813Z,id: 12, msg: Attempted operation with non-numeric values
 warn: 2023-05-18T21:06:40.942Z,id: 12, msg: Record not found
+warn: 2023-05-19T01:13:45.081Z,error: JsonWebTokenError: jwt malformed
+warn: 2023-05-19T01:13:45.089Z,error: JsonWebTokenError: jwt malformed
+warn: 2023-05-19T01:17:03.360Z,id: 12, msg: Attempted division by 0
+warn: 2023-05-19T01:17:25.472Z,id: 12, msg: Insufficient balance for operation requested
+warn: 2023-05-19T01:17:26.540Z,id: 12, msg: Insufficient balance for operation requested
+warn: 2023-05-19T01:17:27.341Z,id: 12, msg: Insufficient balance for operation requested

@@ -156,11 +156,11 @@ router.get('/records', authenticateToken, async (req, res) => {
     let result
 
     if(req.query.filter === 'all') {
-      const query = 'SELECT * FROM operation_records WHERE user_id = $1 ORDER BY date DESC OFFSET $2 LIMIT $3';
+      const query = 'SELECT * FROM operation_records WHERE user_id = $1 AND deleted = false ORDER BY date DESC OFFSET $2 LIMIT $3';
       result = await client.query(query, [userId, offset, limit]);
     } else {
       filter = operationsTable[req.query.filter]
-      const query = 'SELECT * FROM operation_records WHERE user_id = $1 AND operation_id = $2 ORDER BY date DESC OFFSET $3 LIMIT $4';
+      const query = 'SELECT * FROM operation_records WHERE user_id = $1 AND operation_id = $2 AND deleted = false ORDER BY date DESC OFFSET $3 LIMIT $4';
       result = await client.query(query, [userId, filter, offset, limit]);
     }
 
