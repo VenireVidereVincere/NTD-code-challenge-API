@@ -11,19 +11,10 @@ require('dotenv').config();
 const app = express();
 
 // Middleware
-
-const allowlist = ['http://localhost:3000','http://localhost:3001', 'https://loanpro-code-challenge-api.herokuapp.com'];
-const corsOptionsDelegate = function (req, callback) {
-  let corsOptions;
-  if (allowlist.indexOf(req.header('Origin')) !== -1) {
-    corsOptions = { origin: true, credentials: true }
-  } else {
-    corsOptions = { origin: false }
-  }
-  callback(null, corsOptions)
-}
 app.use(express.json());
-app.use(cors(corsOptionsDelegate));
+app.use(cors({
+  origin: 'https://ntd-code-challenge-frontend.herokuapp.com',
+}));
 app.use(cookieParser());
 
 // Mount the route files
