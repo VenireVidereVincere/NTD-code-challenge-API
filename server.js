@@ -13,7 +13,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'https://ntd-code-challenge-frontend.herokuapp.com',
+  origin: process.env.FRONTEND_URL,
 }));
 app.use(cookieParser());
 
