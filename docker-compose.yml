@@ -6,8 +6,6 @@ services:
       dockerfile: Dockerfile
     ports:
       - 3000:3000
-    volumes:
-      - .:/app
     environment:
       - NODE_ENV=production
       - JWT_SECRET=your secret...
