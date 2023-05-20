@@ -24,6 +24,18 @@ The database URL, like mentioned before, has to be a PSQL instance hosted somewh
 The JWT secret is a phrase you must keep secret for token generation. 
 API_KEY is your key for random.org services.
 
+## DOCKER
+IMPORTANT! If you intend to use the docker file in order to create a local container for the app, you are likely to run into an error with dlopen installation. 
+
+- docker-compose build
+- docker-compose up
+
+This error is due to bcrypt's library, and you can usually resolve it by rebuilding it:
+
+- npm rebuild bcrypt --build-from-source
+
+After doing that, rerun the build and the up commands and the docker container should work.
+
 ### DEFINITIONS
 Note - All non 2xx status responses are errors.
 Unless otherwise specified, these are some generic responses from all endpoints:
