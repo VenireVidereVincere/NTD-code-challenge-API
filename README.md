@@ -8,24 +8,38 @@ The app uses Winston for logging. You can find the logs in the logs directory. F
 
 You can run:
 
+- docker-compose build
 - docker-compose up
 
 In order to start a docker container with the app. Be sure to modify docker-compose.yml to include your credentials for the PSQL DB.
 
-## Requirements
-You will need to setup the following env variables for the app to work if you intend to use it locally.
+## Requirements to run 
+- Default port: 3000 for both docker and non-containerized version.  
+You will need to setup the following env variables for the app to work if you intend to use it locally. You can use an .env file at the root of your directory. 
 
-DATABASE_URL=...
+DATABASE_URL=... 
+
 JWT_SECRET=...
+
 API_KEY=...
+
 FRONTEND_URL...
 
-The database URL, like mentioned before, has to be a PSQL instance hosted somewhere.
+The database URL, like mentioned before, has to be a PSQL instance hosted somewhere. 
+
 The JWT secret is a phrase you must keep secret for token generation. 
+
 API_KEY is your key for random.org services.
 
+FRONTEND_URL is the address for your local frontend implementation. 
+
+In order to run the app you will need to run:
+
+- npm install
+- npm run 
+
 ## DOCKER
-You will need to open the docker-compose file and add your private keys to the environment variables, make sure to leave no spaces inbetween the '=' sign and your value, or after your value. Then, run the following:
+You will need to open the docker-compose file and add your private keys to the environment variables, make sure to leave no spaces inbetween the '=' sign and your value, or after your value. Then, run the following (You can leave the placeholder values in if you want to just run the application, but no operations will be able to be made):
 
 - docker-compose build
 - docker-compose up
@@ -42,6 +56,7 @@ Status 500 for Network error
 
 - POST /create-user
 Expects a username and password in the request body. 
+
 {
     "username":string,
     "password":string
@@ -52,10 +67,13 @@ Checks for duplicate usernames.
 Hashes the password via bcrypt and stores a new user in the DB. 
 
 Status 201 for successful creation.
+
 Status 400 for duplicated username.
 
 - POST /login
+- 
 Expects a username and a password sent through the body of the request.
+
 {
     "username":string,
     "password":string
@@ -64,6 +82,7 @@ Expects a username and a password sent through the body of the request.
 Returns a JWT token which is expected to be included in any future requests through the authorization header.
 
 Status 401 for invalid PW.
+
 Status 404 for User Not Found.
 
 
@@ -75,6 +94,7 @@ Destroys the cookie, deletes the cookie from the server.
 - GET /get-balance
 Expects for the JWT token to be present in the cookie. This is handled by the browser, no need to send any information manually.
 Returns a JSON object in the response body:
+
 {
     "balance":number
 }
@@ -84,6 +104,7 @@ Returns a JSON object in the response body:
 - POST /request
 Used in order to request an operation. Will check the balance vs the cost and create a record in the DB regardless of whether it's denied or approved (based on the cost vs balance).
 Expects firstNum, secondNum and type to be in the request body:
+
 {
 	"firstNum": int,
 	"secondNum": int,
@@ -92,13 +113,19 @@ Expects firstNum, secondNum and type to be in the request body:
 
 type must be a string containing exactly one of the following values:
   multiplication
+  
   addition
+  
   subtraction
+  
   division
+  
   square_root
+  
   random_string_generation
 
 If successful, alongside a status 200 it returns:
+
 {
 	"message": "Operation successful!",
 	"result": number | string
@@ -120,6 +147,7 @@ page (optional): The current page number (default: 1).
 limit (optional): The number of records per page (default: 10).
 
 Returns:
+
 [
   {
     "id": number,
@@ -136,6 +164,7 @@ Returns:
 Deletes the specified operation record.
 Expects for the JWT token to be present in the cookie. This is handled by the browser, no need to send any information manually.
 Path Parameters:
+
 id: The ID of the operation record to delete.
 
 Status 404 for Record Not Found.
